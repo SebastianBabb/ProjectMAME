@@ -1,0 +1,126 @@
+/*
+ * style.css
+ * Copyright (C) 2017 sebastian
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+@font-face {
+    font-family: TRON;
+    src: url("../fonts/TRON.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: ENCOM;
+    src: url("../fonts/terminator_real.ttf") format("truetype");
+}
+
+html {
+    /*
+     * Needed for sticky footer.
+     */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #000000;
+    color: #19C7EA;
+    margin-bottom: 60px; /* Needed for sticky footer. */
+}
+
+div#grid-top {
+    background-image: url('../img/tron-grid-top.png');
+    min-height: 200px;
+    max-height: 200px;
+}
+
+div#grid-bottom {
+    background-image: url('../img/tron-grid-bottom.png');
+    min-height: 200px;
+    max-height: 200px;
+}
+
+
+#header-container {
+    font-family: "ENCOM";
+}
+
+hr.header-line {
+    position: relative;
+    bottom: 80px;
+    border-color: #19C7EA;
+    border-width: .25em;
+    z-index: 0;
+}
+
+.header-text-container {
+    background-color: rgba(9, 68, 70, 1.0);
+    position: relative;
+    z-index: 10;
+    border-style:solid;
+    border-radius: 10em;
+    min-height: 120px;
+    text-align: center;
+}
+
+.header-text-container h1 {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+
+}
+
+.header-text-container h2 {
+    font-size: 1.25em;
+    letter-spacing: 0.5em;
+
+}
+
+.header-title {
+
+}
+
+.header-text-container h4{
+    margin-top:20px;
+}
+
+.panel {
+    padding: 0px;
+    border-color: #19C7EA;
+    background-color: rgba(2, 30, 34, 0.5);
+}
+
+.panel-header{
+    font-size: 1em;
+    padding: 10px;
+    border-color: #19C7EA;
+    border-bottom: solid;
+    background-color: rgba(9, 68, 70, 0.75);
+}
+
+.panel-body {
+    font-size: 1em;
+}
+
+.panel-body ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.panel-body ul li {
+    padding-top: 10px;
+}
+
+/* 
+ * Sticky footer styles
+ */
+.footer {
+    position: absolute;
+    padding-top: 5px; /* Added padding for section loading animation */
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
