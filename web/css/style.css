@@ -84,6 +84,10 @@ hr.header-line {
     margin-top:20px;
 }
 
+.hud {
+    margin-bottom: 200px;
+}
+
 .panel {
     padding: 0px;
     border-color: #19C7EA;
@@ -100,6 +104,11 @@ hr.header-line {
 
 .panel-body {
     font-size: 1em;
+    padding: 0px;
+}
+
+.panel-padding {
+    padding: 15px;
 }
 
 .panel-body ul {
@@ -109,6 +118,17 @@ hr.header-line {
 
 .panel-body ul li {
     padding-top: 10px;
+}
+
+.rom-list {
+   margin: 0p;
+    
+}
+
+.rom-list li {
+   border-bottom: solid; 
+   border-width: 1px;
+   padding: 20px;
 }
 
 /* 
@@ -123,4 +143,14 @@ hr.header-line {
     height: 60px;
     background-color: #f5f5f5;
     text-align: center;
+}
+
+button {
+    min-width: 100px;
+    padding: 10px;
+    border: solid;
+    border-color: #19C7EA;
+    border-width: 1px;
+    background-color: rgba(9, 68, 70, 1.0);
+    font-weight: bold;
 }

@@ -26,7 +26,7 @@
                         <div class='panel-header'>
                             System Information 
                         </div>
-                        <div class='panel-body'>
+                        <div class='panel-body panel-padding'>
                             <ul>
                                 <li><span>Hostname:</span></li> 
                                 <li><span>Operating System:</span></li> 
@@ -38,7 +38,7 @@
                         <div class='panel-header'>
                            Add ROM File 
                         </div>
-                        <div class='panel-body'>
+                        <div class='panel-body panel-padding'>
                             <ul>
                                 <li><span>Hostname:</span></li> 
                                 <li><span>Operating System:</span></li> 
@@ -52,6 +52,17 @@
                         ROMs 
                     </div>
                         <div class='panel-body'>
+                            <ul class='rom-list'>
+                                <li>
+                                    <div class='row'>
+                                        <span class='pull-left'>atetris.zip</span>
+                                        <button class='pull-right'>Delete</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>atetris.zip</div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
